@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: hsl(238.35deg 56.48% 37.84%);
+    font-family: 'Lobster Two', cursive;
+    font-size: 25px;
+}
+div{
+    width: 60%;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    aspect-ratio: 1;
+    width: 100px;
+    margin: 5px;
+    background-color: hsl(19.61deg 100% 49.8%);
+    text-align: center;
+    padding-top: 35px;
+    border-radius: 5px;
+}
+
+h1{
+    color: white;
+    font-size: 200px;
+    
+}
+li:hover{
+    transform: scale(1.1);
+}
+.fizz{
+    background-color: hsl(198.26deg 99.04% 40.98%);
+}
+
+.buzz{
+    background-color:hsl(69.27deg 100% 45.69%) ;
+}
+
+.fizzbuzz{
+    background-color: hsl(340.46deg 82.94% 41.37%);
+}

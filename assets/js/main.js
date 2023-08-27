@@ -13,19 +13,20 @@ if (i%3==0 && i%5==0){
     itemEl.append("FizzBuzz")
     listaEl.append(itemEl) 
     console.log("FizzBuzz")
+    itemEl.classList.add("fizzbuzz")
 } else if (i%5==0){
 
      const itemEl = document.createElement('li')
     itemEl.append("Buzz")
     listaEl.append(itemEl) 
     console.log("Buzz")
-
+    itemEl.classList.add("buzz")
 } else if (i%3==0){
     const itemEl = document.createElement('li')
     itemEl.append("Fizz")
     listaEl.append(itemEl) 
     console.log("Fizz")
-
+    itemEl.classList.add("fizz")
 } else{
     const itemEl = document.createElement('li')
     itemEl.append(i)
